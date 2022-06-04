@@ -221,14 +221,14 @@ function createFreeUseShop(shopShape, name)
                             icon = "fa-solid fa-circle-info",
                             header = getVehBrand():upper()..' '..getVehName():upper()..' - $'..getVehPrice(),
                         },
-                        {
-                            header = 'Test Drive',
-                            txt = 'Test drive currently selected vehicle',
-                            icon = "fa-solid fa-car-on",
-                            params = {
-                                event = 'qb-vehicleshop:client:TestDrive',
-                            }
-                        },
+                        -- {
+                        --     header = 'Test Drive',
+                        --     txt = 'Test drive currently selected vehicle',
+                        --     icon = "fa-solid fa-car-on",
+                        --     params = {
+                        --         event = 'qb-vehicleshop:client:TestDrive',
+                        --     }
+                        -- },
                         {
                             header = "Buy Vehicle",
                             txt = 'Purchase currently selected vehicle',
@@ -241,18 +241,18 @@ function createFreeUseShop(shopShape, name)
                                 }
                             }
                         },
-                        {
-                            header = 'Finance Vehicle',
-                            txt = 'Finance currently selected vehicle',
-                            icon = "fa-solid fa-coins",
-                            params = {
-                                event = 'qb-vehicleshop:client:openFinance',
-                                args = {
-                                    price = getVehPrice(),
-                                    buyVehicle = Config.Shops[insideShop]["ShowroomVehicles"][ClosestVehicle].chosenVehicle
-                                }
-                            }
-                        },
+                        -- {
+                        --     header = 'Finance Vehicle',
+                        --     txt = 'Finance currently selected vehicle',
+                        --     icon = "fa-solid fa-coins",
+                        --     params = {
+                        --         event = 'qb-vehicleshop:client:openFinance',
+                        --         args = {
+                        --             price = getVehPrice(),
+                        --             buyVehicle = Config.Shops[insideShop]["ShowroomVehicles"][ClosestVehicle].chosenVehicle
+                        --         }
+                        --     }
+                        -- },
                         {
                             icon = "fa-solid fa-arrow-rotate-left",
                             header = 'Swap Vehicle',
