@@ -89,39 +89,39 @@ Config.Shops = {
             -- }
         },
     },
-    -- ['luxury'] = {
-    --      ['Type'] = 'free-use',  -- meaning a real player has to sell the car
-    --      ['Zone'] = {
-    --          ['Shape'] = {
-    --              vector2(855.76, -3216.08334838867),
-    --              vector2(855.84, -3207.27365722656),
-    --              vector2(855.6833203125, -3188.65794311523),
-    --              vector2(843.2425292969, -3188.43715209961),
-    --              vector2(819.08, -3188.616003418),
-    --              vector2(818.561523438, -3201.3980810547),
-    --              vector2(820.1784082031, -3216.01278930664)
-    --          },
-    --          ['minZ'] = 5.000,
-    --          ['maxZ'] = 7.000
-    --      },
-    --      ['Job'] = 'none', -- Name of job or none
-    --      ['ShopLabel'] = 'Larrys Truckshop',
-    --      ['showBlip'] = true,  --- true or false
-    --      ['Categories'] = {
-    --          ['commercials'] = 'Trucks'
-    --      },
-    --      ['TestDriveTimeLimit'] = 0.5,
-    --      ['Location'] = vector3(848.25, -3211.53, 5.88),
-    --      ['ReturnLocation'] = vector3(-1231.46, -349.86, 37.33),
-    --      ['VehicleSpawn'] = vector4(848.25, -3211.53, 5.88, 90.12),
-    --      ['ShowroomVehicles'] = {
-    --          [1] = {
-    --              coords = vector4(834.54, -3210.41, 5.88, 180.23),
-    --              defaultVehicle = 'benson2',
-    --              chosenVehicle = 'benson2',
-    --          },
-    --      }
-    --  }, -- Add your next table under this comma
+    ['truck'] = {
+         ['Type'] = 'free-use',  -- meaning a real player has to sell the car
+         ['Zone'] = {
+             ['Shape'] = {
+                vector2(822.72, -3227.49),
+                vector2(816.81, -3182.94),
+                vector2(870.16, -3183.86),
+                vector2(871.15, -3228.70),
+             },
+             ['minZ'] = 4.000,
+             ['maxZ'] = 9.000,
+             ['size'] = 4.75, -- size of the vehicles zones
+         },
+         ['Job'] = 'none', -- Name of job or none
+         ['ShopLabel'] = 'Larrys Truckshop',
+         ['showBlip'] = true,  --- true or false
+         ['blipSprite'] = 326,  -- Blip sprite
+         ['blipColor'] = 3,  -- Blip color
+         ['Categories'] = {
+             ['commercials'] = 'Trucks'
+         },
+         ['TestDriveTimeLimit'] = 0.5,
+         ['Location'] = vector3(848.25, -3211.53, 5.88),
+         ['ReturnLocation'] = vector3(-1231.46, -349.86, 37.33),
+         ['VehicleSpawn'] = vector4(848.25, -3211.53, 5.88, 90.12),
+         ['ShowroomVehicles'] = {
+             [1] = {
+                 coords = vector4(834.54, -3210.41, 5.88, 180.23),
+                 defaultVehicle = 'benson2',
+                 chosenVehicle = 'benson2',
+             }
+         }
+     }, -- Add your next table under this comma
     ['boats'] = {
         ['Type'] = 'free-use',  -- no player interaction is required to purchase a vehicle
         ['Zone'] = {
