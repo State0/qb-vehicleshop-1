@@ -40,6 +40,7 @@ Config.Shops = {
             ['muscle'] = 'Muscle',
             ['compacts'] = 'Compacts',
             ['motorcycles'] = 'Motorcycles',
+            ['drift'] = 'Driftcars',
             ['vans'] = 'Vans'
         },
         ['TestDriveTimeLimit'] = 0.5, -- Time in minutes until the vehicle gets deleted
@@ -49,8 +50,8 @@ Config.Shops = {
         ['ShowroomVehicles'] = {
             [1] = {
                 coords = vector4(-37.39, -1092.7, 27.3, 206.77), -- where the vehicle will spawn on display
-                defaultVehicle = 'f82lw', -- Default display vehicle
-                chosenVehicle = 'f82lw', -- Same as default but is dynamically changed when swapping vehicles
+                defaultVehicle = 'rmodm4gts', -- Default display vehicle
+                chosenVehicle = 'rmodm4gts', -- Same as default but is dynamically changed when swapping vehicles
             },
             [2] = {
                 coords = vector4(-47.37, -1091.7, 27.3, 92.51),
